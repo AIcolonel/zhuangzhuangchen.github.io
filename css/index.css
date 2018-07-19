@@ -1,12 +1,21 @@
 .link:hover{
 	color:#EA1F4C;
 }
-
+.text-ellipsis{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+body{
+	background: #DDDDDD;
+}
 
 #navbar-blog a:hover{
 	color:#EA1F4C;
 }
-
+#navbar-blog{
+	background: rgba(255,255,255,0.9);
+}
 #navbar-blog .navbar-brand{
 	color: #000 !important; 
 }
@@ -26,7 +35,6 @@
 .main{
 	margin-top: 51px;
 	padding-top: 20px; 
-	background: #DDDDDD;
 }
 .main .carousel-inner img{
 	width: 100%;
@@ -73,5 +81,63 @@
 }
 .panel-footer .glyphicon{
 	margin-left: 10px;
+}
+
+#Page>.pagination>li>.link{
+	color: #CECBCB;
+}
+#Page>.pagination>li>.link:hover{
+	color:#EA1F4C;
+}
+
+
+.panel>.panel-heading{
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	background: #fff;
+}
+.panel>.panel-body{
+	background:transparent;
+	font-size: 14px;
+	padding:0;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 15px; 
+}
+.panel>.panel-body .body-img,
+.panel>.panel-body .body-content{
+	float: left;
+}
+.panel>.panel-body .body-content{
+	width: 220px;
+	padding-left: 10px;
+}
+.panel>.panel-body .img-circle{
+	width: 100px;
+	height: 100px;
+}
+
+
+.panel-body .body-ul .body-item{
+	border: none;
+}
+
+
+
+.panel>.body-wechat{
+	margin-left: 28px;
+}
+.panel .panel-body .wechat-img{
+	width: 300px;
+	height: 300px;
+}
+/*main结束*/
+
+/*main开始*/
+footer{
+	border: none;
+	text-align: center;
+	margin-top: 10px;
 }
 /*main结束*/
